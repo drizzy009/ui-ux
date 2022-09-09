@@ -12,6 +12,10 @@ const Billing = () =>  (
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Easily control your <br className="sm:block hidden"/>billing & invoicing.</h2>
         <p className={`${styles.paragraph} max-w-[470px]`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In illum optio ea magni tempora sequi. Maxime voluptatum eum est, veritatis, magni, unde dolorum itaque deserunt velit molestiae delectus quibusdam illo.</p>
+        <div className='flex flex-row flex-wrap md:mt-10 mt-6'>
+          <img src={apple} alt='app-store' className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'/>
+          <img src={google} alt='google-play' className='w-[128px] h-[42px] object-contain cursor-pointer'/>
+        </div>
       </div>
     </section>
   )
